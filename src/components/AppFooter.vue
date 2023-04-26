@@ -1,14 +1,39 @@
 <template>
     <footer>
         <div class="container">
-            <div class="subscribe">
-                subscribe
+            <div class="subscribe d-flex pt-5 pb-5">
+                <div class="text text-center d-flex justify-content-center align-items-center">
+                icona
+                Subscribe now and get special offers
+                </div>
+                <div class="call_to_action d-flex justify-content-center align-items-center">
+                    <input type="text" placeholder="insert your email">
+                    <button>SEND</button>
+                </div>
             </div>
             <div class="link">
-                link
+                <div class="row pt-3 pb-3">
+                    <div class="col-3 d-flex flex-column">
+                        <div class="logo">logo</div>
+                    </div>
+                    <div class="col-3 d-flex flex-column">
+
+                    </div>
+                    <div class="col-3 d-flex flex-column">
+
+                    </div>
+                    <div class="col-3 d-flex flex-column">
+
+                    </div>
+                </div>
             </div>
-            <div class="copy">
-                copy
+            <div class="copy text-center d-flex flex-column">
+                <div class="copyright">
+                    <i class="fa fa-copyright" aria-hidden="true"></i>
+                </div>
+                <div class="payments_methods d-flex justify-content-center">
+                    payments_methods
+                </div>
             </div>
         </div>
     </footer>
@@ -40,4 +65,13 @@ export default {
 .copy {
     height: 50px;
     border: dashed;
-}</style>
+}
+
+.text {
+    width: 60%;
+}
+
+.call_to_action {
+    width: 40%;
+}
+</style>
