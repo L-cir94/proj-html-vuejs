@@ -2,7 +2,11 @@
     <main>
         <div class="container_large">
             <div class="jumbutron">
-                jumbutron
+                <div class="container h-100 d-flex flex-column justify-content-center align-items-center">
+                    <h1>Brand New Arrivals</h1>
+                    <h3 class="text-uppercase">new collection from new york</h3>
+                </div>
+
             </div>
         </div>
         <section class="featured">
@@ -70,14 +74,24 @@ export default {
 @use '../assets/partials/variables' as*;
 
 .jumbutron {
-    height: 350px;
-    border: dashed;
+    height: 550px;
+    background-image: url(../assets/img/home1_slide_three_bg_2.jpg);
+    background-position: center;
+    background-size: cover;
+    h1{
+        color: white;
+        font-size: 100px;
+    }
+    h3{
+        color: white;
+    }
 }
 
 .small_jumbutron {
     height: 250px;
     border: dashed;
 }
+
 .xs_jumbutron {
     height: 150px;
     border: dashed;
@@ -118,10 +132,10 @@ export default {
     height: 340px;
     border: dashed;
 }
+
 .b_bottom {
     width: 100%;
     height: 300px;
     border: dashed;
 }
-
 </style>

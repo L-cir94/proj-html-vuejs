@@ -23,8 +23,11 @@
                             <div class="address text-center">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, autem.</p>
                             </div>
-                            <div class="icons d-flex">
-                                icona icona icona icona
+                            <div class="icons d-flex gap-3">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-youtube"></i>
                             </div>
                         </div>
                         <div class="col-3 d-flex flex-column align-items-center gap-5">
