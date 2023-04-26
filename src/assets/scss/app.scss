@@ -1,0 +1,8 @@
+@use '../../../node_modules/bootstrap/scss/bootstrap.scss';
+@use '../partials/_variables' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
