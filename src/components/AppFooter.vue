@@ -15,13 +15,15 @@
             </div>
             <div class="link align-items-center">
                 <div class="container align-items-center">
-                    <div class="row align-items-center">
-                        <div class="col-3 d-flex flex-column align-items-center gap-5">
+                    <div class="row pt-5 pb-5">
+                        <div class="col-3 d-flex flex-column justify-content-between gap-5">
                             <div class="logo">
                                 <img width="150" class="img-fluid" src="../assets/img/classic_shop_logo_footer.png" alt="">
                             </div>
-                            <div class="address text-center">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, autem.</p>
+                            <div class="address">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consequatur sunt dolorum
+                                    hic voluptatum magnam, recusandae vel facilis perferendis quisquam quo iure. Dolorum
+                                    dolor iure hic eligendi enim minima possimus!</p>
                             </div>
                             <div class="icons d-flex gap-3">
                                 <i class="fa-brands fa-facebook-f"></i>
@@ -30,27 +32,99 @@
                                 <i class="fa-brands fa-youtube"></i>
                             </div>
                         </div>
-                        <div class="col-3 d-flex flex-column align-items-center gap-5">
+                        <div class="col-3 d-flex flex-column gap-5">
                             <h6 class="text-uppercase">top rated product</h6>
+                            <div class="item d-flex justify-content-between pb-2">
+                                <div class="text">
+                                    <h6>Leather Gloves</h6>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <h6>$45</h6>
+                                </div>
+                                <img width="50" class="img-fluid" src="../assets/img/modern_black_leather_suit-400x520.jpg"
+                                    alt="">
+                            </div>
+                            <div class="item d-flex justify-content-between pb-2">
+                                <div class="text">
+                                    <h6>Leather Gloves</h6>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <h6>$45</h6>
+                                </div>
+                                <img width="50" class="img-fluid" src="../assets/img/modern_black_leather_suit-400x520.jpg"
+                                    alt="">
+                            </div>
+                            <div class="item d-flex justify-content-between pb-2">
+                                <div class="text">
+                                    <h6>Leather Gloves</h6>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <h6>$45</h6>
+                                </div>
+                                <img width="50" class="img-fluid" src="../assets/img/modern_black_leather_suit-400x520.jpg"
+                                    alt="">
+                            </div>
                         </div>
-                        <div class="col-3 d-flex flex-column align-items-center gap-5">
+                        <div class="col-3 d-flex flex-column align-items-center ">
                             <h6 class="text-uppercase">recent posts</h6>
+                            <div class="post d-flex justify-content-between gap-4">
+                                <ul class="d-flex flex-column gap-5">
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="col-3 d-flex flex-column align-items-center gap-5">
+                        <div class="col-3 d-flex flex-column gap-5">
                             <h6 class="text-uppercase">tags</h6>
+                            <div class="container_tags d-flex flex-wrap gap-2">
+                                <span class="my_span">tag</span>
+                                <span class="my_span">tag</span>
+                                <span class="my_span">tag</span>
+                                <span class="my_span">tag</span>
+                                <span class="my_span">tag</span>
+                                <span class="my_span">tag</span>
+                                <span class="my_span">tag</span>
+                                <span class="my_span">tag</span>
+                                <span class="my_span">tag</span>
+                                <span class="my_span">tag</span>
+                                <span class="my_span">tag</span>
+                                <span class="my_span">tag</span>
+                                <span class="my_span">tag</span>
+                                <span class="my_span">tag</span>
+                                <span class="my_span">tag</span>
+                                <span class="my_span">tag</span>
+                                <span class="my_span">tag</span>
+                                <span class="my_span">tag</span>
+                                <span class="my_span">tag</span>
+                                <span class="my_span">tag</span>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
             <div class="copy text-center d-flex flex-column">
                 <div class="container">
-                    <div class="copyright">
+                    <div class="copyright mt-4">
                         <i class="fa-regular fa-copyright"></i> 2012 - 2020 | Avada Themes by Temes fusion | All Rights
                         Reserved
                         | Powered by WordPress
 
                     </div>
-                    <div class="payments_methods d-flex justify-content-center gap-3 pt-1">
+                    <div class="payments_methods d-flex justify-content-center gap-3 pt-1  mb-2">
                         <img class="img.fluid rounded-2" src="../assets/img/visa_82066.png" alt="visa">
                         <img class="img-fluid rounded-2" src="../assets/img/paypal_payment_method_card_icon_142733.png"
                             alt="paypal">
@@ -89,12 +163,28 @@ export default {
 }
 
 .link {
-    height: 345px;
-background-color:$Shark1;
+    height: 545px;
+    background-color: $Shark1;
+
+    .my_span {
+        padding: 0 10px;
+        border: solid 0.1px rgb(87, 87, 87);
+    }
+
+    .post li {
+        list-style: none;
+        border-bottom: solid 0.1px rgb(87, 87, 87);
+    }
+
+    .item {
+        border-bottom: solid 0.1px rgb(87, 87, 87);
+        width: 100%;
+
+    }
 }
 
 .copy {
-    height: 55px;
+
     background-color: black;
 }
 
