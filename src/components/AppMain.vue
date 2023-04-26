@@ -56,8 +56,15 @@
             </div>
         </section>
         <div class="container_large">
-            <div class="xs_jumbutron">
-                xs_jumbutron
+            <div class="xs_banner text-center pt-5">
+                <h6 class=" text-uppercase">brand logos</h6>
+                <div class="container  d-flex align-items-center justify-content-between">
+                    <img src="../assets/img/b_logotype_6.png" alt="authenti">
+                    <img src="../assets/img/b_logotype_7.png" alt="authenti">
+                    <img src="../assets/img/b_logotype_1.png" alt="authenti">
+                    <img src="../assets/img/b_logotype_2.png" alt="authenti">
+                    <img src="../assets/img/b_logotype_3.png" alt="authenti">
+                </div>
             </div>
         </div>
     </main>
@@ -100,9 +107,15 @@ export default {
     border: dashed;
 }
 
-.xs_jumbutron {
-    height: 150px;
-    border: dashed;
+.xs_banner {
+    height: 250px;
+   background-color:$bannersmall;
+   img{
+    max-width:100%;
+   }
+   h6{
+    color:$NevadaDarkMuted ;
+   }
 }
 
 .featured {
