@@ -5,8 +5,11 @@
                 <div class="container h-100 d-flex flex-column justify-content-center align-items-center">
                     <h1>Brand New Arrivals</h1>
                     <h3 class="text-uppercase">new collection from new york</h3>
+                    <div class="buttons d-flex mt-4 gap-3">
+                        <button class="ps-5 pe-5 p-3 rounded-5 text-uppercase">view all</button>
+                    <button class=" ps-5 pe-5 rounded-5 text-uppercase">lookbook</button>
+                    </div>
                 </div>
-
             </div>
         </div>
         <section class="featured">
@@ -83,6 +86,11 @@ export default {
         font-size: 100px;
     }
     h3{
+        color: white;
+    }
+    button{
+        background-color: rgba(255, 255, 255, 0.136);
+        border: white solid 0.1px;
         color: white;
     }
 }
