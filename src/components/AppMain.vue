@@ -12,7 +12,7 @@
                 </div>
             </div>
         </div>
-        <section class="featured pt-5 pb-5">
+        <section class="featured pt-5">
             <div class="container  ">
                 <div class="divisore d-flex align-items-center justify-content-center">
                     <div class="stick me-3 mb-4">
@@ -87,18 +87,33 @@
                 </div>
             </div>
         </section>
-        <section class="collections">
-            <div class="container_large">
-                <div class="row">
-                    collection
-                    <!--    <img class="img-fluid" src="../assets/img/winter_collection_bg.jpg" alt="">
-                        <img class="img-fluid" src="../assets/img/spring_collection_bg.jpg" alt="">
-                        <img class="img-fluid" src="../assets/img/autumn_collection_bg.jpg" alt=""> -->
+        <section class="collections pt-5">
+            <div class="container_large d-flex">
+                <div class="winter d-flex  flex-column justify-content-end">
+                    <div class="text d-flex flex-column justify-content-center align-items-center mb-5">
+                                <h2 class="pb-3">Winter Collection</h2>
+                                <p class="text-uppercase">stylish and warm</p>
+                                <button class="p-2 pe-3 ps-3 rounded-5 text-uppercase">view more</button>
+                            </div>
+                </div>
+                <div class="spring d-flex  flex-column justify-content-end">
+                    <div class="text d-flex flex-column justify-content-center align-items-center mb-5">
+                                <h2 class="pb-3"> Spring Collection</h2>
+                                <p class="text-uppercase">bright and colorful</p>
+                                <button class="p-2 pe-3 ps-3 rounded-5 text-uppercase">view more</button>
+                            </div>
+                </div>
+                <div class="autumn d-flex  flex-column justify-content-end">
+                    <div class="text d-flex flex-column justify-content-center align-items-center mb-5">
+                                <h2 class="pb-3">Autumn Collection</h2>
+                                <p class="text-uppercase">ruch and comfortable</p>
+                                <button class="p-2 pe-3 ps-3 rounded-5 text-uppercase">view more</button>
+                            </div>
                 </div>
             </div>
         </section>
-        <section class="best_seller">
-            <div class="container pt-5 pb-5">
+        <section class="best_seller pt-5">
+            <div class="container">
                 <div class="row">
                     <div class="divisore d-flex align-items-center justify-content-center">
                         <div class="stick me-3 mb-4">
@@ -116,8 +131,7 @@
                         </div>
                         <div class="item d-flex flex-column align-items-center">
                             <div class="img">
-                                <img width="200" class="img-fluid pb-2" src="../assets/img/modern_black_leather_suit.jpg"
-                                    alt="">
+                                <img width="200" class="img-fluid pb-2" src="../assets/img/spring_printed_dress.jpg" alt="">
                             </div>
                         </div>
                         <div class="item d-flex flex-column align-items-center">
@@ -128,20 +142,18 @@
                         </div>
                         <div class="item d-flex flex-column align-items-center">
                             <div class="img">
-                                <img width="200" class="img-fluid pb-2" src="../assets/img/modern_black_leather_suit.jpg"
+                                <img width="200" class="img-fluid pb-2" src="../assets/img/black_leather_jacket.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item d-flex flex-column align-items-center">
+                            <div class="img">
+                                <img width="200" class="img-fluid pb-2" src="../assets/img/black_elegant_leather_jacket.jpg"
                                     alt="">
                             </div>
                         </div>
                         <div class="item d-flex flex-column align-items-center">
                             <div class="img">
-                                <img width="200" class="img-fluid pb-2" src="../assets/img/modern_black_leather_suit.jpg"
-                                    alt="">
-                            </div>
-                        </div>
-                        <div class="item d-flex flex-column align-items-center">
-                            <div class="img">
-                                <img width="200" class="img-fluid pb-2" src="../assets/img/modern_black_leather_suit.jpg"
-                                    alt="">
+                                <img width="200" class="img-fluid pb-2" src="../assets/img/hipster_black_top.jpg" alt="">
                             </div>
                         </div>
                         <div class="arrow d-flex justify-content-center align-items-center">
@@ -153,23 +165,53 @@
         </section>
         <section class="on_sale">
             <div class="container">
-                on_sale
+                <div class="row">
+                    <div class="col-6 d-flex align-items-center justify-content-end p-5">
+                        <div class="off d-flex align-items-center p-4">
+                            <div class="text">
+                                <h2>70% Off</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                <button class="p-2 pe-3 ps-3 rounded-5 text-uppercase">view more</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 d-flex align-items-center justify-content-start">
+                        <div class="free d-flex align-items-center p-4">
+                            <div class="text">
+                                <h2>Free shipping</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem quae</p>
+                                <button class="p-2 pe-3 ps-3 rounded-5 text-uppercase">view more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="new_arrivals">
-            <div class="container_large">
+            <div class="container_large pt-5 pb-5">
                 new_arrivals
             </div>
         </section>
-        <div class="container_large">
-            <div class="small_jumbutron">
-                small_jumbutron
+        <section class="small_jumbutron">
+            <div class="container">
+
             </div>
-        </div>
-        <section class="blog">
+        </section>
+        <section class="blog p-5 pb-5">
             <div class="container">
                 <div class="b_top">
-                    b_top
+                    <div class="row">
+                        <div class="divisore d-flex align-items-center justify-content-center">
+                            <div class="stick me-3 mb-4">
+                            </div>
+                            <strong class=" h6 d-flex flex-column align-items-center">
+                                <h1>From Our Blog</h1>
+                                <h6>The Latest Classic Shop news</h6>
+                            </strong>
+                            <div class="stick ms-3 mb-4">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <hr>
@@ -230,8 +272,19 @@ export default {
 }
 
 .small_jumbutron {
-    height: 250px;
-    border: dashed;
+    height: 450px;
+    color: white;
+    background-image: url(../assets/img/testimonials_home_1_bg.jpg);
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: -180px;
+    background-repeat: no-repeat;
+
+    .testimonial {
+        width: 100%;
+        border: dashed;
+    }
+
 }
 
 .xs_banner {
@@ -242,9 +295,7 @@ export default {
         max-width: 100%;
     }
 
-    h6 {
-        color: $NevadaDarkMuted ;
-    }
+
 }
 
 .featured {
@@ -288,35 +339,39 @@ export default {
 }
 
 .collections {
+color: white;
     width: 100%;
-    height: auto;
+    .autumn,
+    .spring,
+    .winter{
+        width: 100%;
+        aspect-ratio: 1;
+    }
+    .winter{
+        background-image: url(../assets/img/winter_collection_bg.jpg);
+        background-size: cover;
+
+    }
+    .spring{
+        background-image: url(../assets/img/spring_collection_bg.jpg);
+        background-size: cover;
+    }
+    .autumn{
+        background-image: url(../assets/img/autumn_collection_bg.jpg);
+        background-size: cover;
+    }
+    button{
+        background-color: rgba(255, 255, 255, 0.136);
+        border: white solid 0.1px;
+        color: white;
+    }
 }
 
 .best_seller {
     width: 100%;
     height: 520px;
 
-    .arrow {
-        position: relative;
-        width: 40px;
-        height: 80px;
-        border: solid 0.1px rgb(206, 205, 205);
-        bottom: -100px;
-        margin-left: -20px;
-        margin-right: -20px;
-        background-color: rgb(206, 205, 205);
 
-        i {
-            color: white;
-        }
-
-
-
-    }
-    .arrow:hover{
-        background-color: rgb(232, 229, 229);
-
-    }
 }
 
 .stick {
@@ -328,24 +383,77 @@ export default {
 
 .on_sale {
     width: 100%;
-    height: 270px;
-    border: dashed;
+    background-image: url(../assets/img/bkgd_confetti-compressor.jpg);
+    background-size: cover;
+    background-position: 0%;
+    color: white;
+
+    button {
+        background-color: rgba(255, 255, 255, 0.136);
+        border: white solid 0.1px;
+        color: white;
+    }
+
+    .off {
+        width: 400px;
+        height: 250px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../assets/img/promo_box_1_bg.jpg);
+    }
+
+    .free {
+        width: 400px;
+        height: 250px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url(../assets/img/promo_box_2_bg.jpg);
+    }
 }
 
 .new_arrivals {
     width: 100%;
-    height: 550px;
-    border: dashed;
+
+
 }
 
 .b_top {
     width: 100%;
-    height: 340px;
-    border: dashed;
+    height: 440px;
+
 }
 
 .b_bottom {
     width: 100%;
     height: 300px;
     border: dashed;
-}</style>
+
+}
+
+.arrow {
+    position: relative;
+    width: 40px;
+    height: 80px;
+    border: solid 0.1px rgb(206, 205, 205);
+    bottom: -100px;
+    margin-left: -20px;
+    margin-right: -20px;
+    background-color: rgb(206, 205, 205);
+
+    i {
+        color: white;
+    }
+
+
+
+}
+
+.arrow:hover {
+    background-color: rgb(232, 229, 229);
+
+}
+
+h6 {
+    color: $NevadaDarkMuted ;
+}
+</style>

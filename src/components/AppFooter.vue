@@ -15,10 +15,10 @@
             </div>
             <div class="link align-items-center">
                 <div class="container align-items-center">
-                    <div class="row pt-5 pb-5">
+                    <div class="row pt-4">
                         <div class="col-3 d-flex flex-column justify-content-between gap-5">
-                            <div class="logo">
-                                <img width="150" class="img-fluid" src="../assets/img/classic_shop_logo_footer.png" alt="">
+                            <div class="logo text-start">
+                                <img width="200" class="img-fluid" src="../assets/img/classic_shop_logo_footer.png" alt="">
                             </div>
                             <div class="address">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima consequatur sunt dolorum
@@ -107,7 +107,7 @@
             </div>
             <div class="copy text-center d-flex flex-column">
                 <div class="container">
-                    <div class="copyright mt-4">
+                    <div class="copyright mt-3">
                         <i class="fa-regular fa-copyright"></i> 2012 - 2020 | Avada Themes by Temes fusion | All Rights
                         Reserved
                         | Powered by WordPress
@@ -149,10 +149,18 @@ export default {
 .subscribe {
     height: 150px;
     background-color: $Shark2;
+    button{
+        border: none;
+
+    }
+    button:hover{
+        background-color: $HavelockBlue;
+        color: white;
+    }
 }
 
 .link {
-    height: 545px;
+    height: 490px;
     background-color: $Shark1;
 
     .my_span {

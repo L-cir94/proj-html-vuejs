@@ -65,7 +65,7 @@ header {
     width: 100%;
     height: 50px;
 .my_border{
-    border-left: solid 0.1px;
+    border-left: solid 0.1px $grigiochiaro;
 }
 .my_border:hover,.my:hover{
     background-color:rgb(206, 205, 205);
@@ -90,7 +90,6 @@ li {
 
 button {
     background-color: $Melanie;
-    ;
     color: white;
     border: none;
 }
