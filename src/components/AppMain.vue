@@ -7,24 +7,148 @@
                     <h3 class="text-uppercase">new collection from new york</h3>
                     <div class="buttons d-flex mt-4 gap-3">
                         <button class="ps-5 pe-5 p-3 rounded-5 text-uppercase">view all</button>
-                    <button class=" ps-5 pe-5 rounded-5 text-uppercase">lookbook</button>
+                        <button class=" ps-5 pe-5 rounded-5 text-uppercase">lookbook</button>
                     </div>
                 </div>
             </div>
         </div>
-        <section class="featured">
+        <section class="featured pt-5 pb-5">
+            <div class="container  ">
+                <div class="divisore d-flex align-items-center justify-content-center">
+                    <div class="stick me-3 mb-4">
+                    </div>
+                    <strong class=" h6 d-flex flex-column align-items-center">
+                        <h1>Featured Products</h1>
+                        <h6>Must have products from our top sellers</h6>
+                    </strong>
+                    <div class="stick ms-3 mb-4">
+                    </div>
+                </div>
+            </div>
+            <div class="container d-flex justify-content-center">
+
+                <div class="chose d-flex align-items-center justify-content-center">
+                    <strong>Men</strong>
+                </div>
+                <div class="chose d-flex align-items-center justify-content-center">
+                    <strong>Women</strong>
+                </div>
+                <div class="chose d-flex align-items-center justify-content-center">
+                    <strong>Accessories</strong>
+                </div>
+            </div>
             <div class="container">
-                featured
+                <div class="row">
+                    <div class="clothes d-flex ps-5 pt-4">
+                        <div class="item d-flex flex-column align-items-center">
+                            <div class="img">
+                                <img width="250" class="img-fluid pb-2" src="../assets/img/black_elegant_leather_jacket.jpg"
+                                    alt="">
+                            </div>
+                            <div class="img-description w-100">
+                                <h5>Black Leather Jacket</h5>
+                                <p>Men, Jackets, Jeans</p>
+                                <span class="discount me-2">$295</span> <span>$200</span>
+                            </div>
+                        </div>
+                        <div class="item d-flex flex-column align-items-center">
+                            <div class="img">
+                                <img width="250" class="img-fluid pb-2" src="../assets/img/black_leather_suit.jpg" alt="">
+                            </div>
+                            <div class="img-description w-100">
+                                <h5>Black Leather Suit</h5>
+                                <p>Men, Jackets</p>
+                                <span>$176</span>
+                            </div>
+                        </div>
+                        <div class="item d-flex flex-column align-items-center">
+                            <div class="img">
+                                <img width="250" class="img-fluid pb-2"
+                                    src="../assets/img/blue_jacket_and_white_stripe_tee.jpg" alt="">
+                            </div>
+                            <div class="img-description w-100">
+                                <h5>Black Jacket & Stripe Tee</h5>
+                                <p>Men, Jackets, Suits</p>
+                                <span>$580</span>
+                            </div>
+                        </div>
+                        <div class="item d-flex flex-column align-items-center">
+                            <div class="img">
+                                <img width="250" class="img-fluid pb-2" src="../assets/img/modern_black_leather_suit.jpg"
+                                    alt="">
+                            </div>
+                            <div class="img-description w-100">
+                                <h5>Modern Black Leather Suit</h5>
+                                <p>Men, Jackets, Jeans</p>
+                                <span>$96</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="collections">
-            <div class="container">
-                collections
+            <div class="container_large">
+                <div class="row">
+                    collection
+                    <!--    <img class="img-fluid" src="../assets/img/winter_collection_bg.jpg" alt="">
+                        <img class="img-fluid" src="../assets/img/spring_collection_bg.jpg" alt="">
+                        <img class="img-fluid" src="../assets/img/autumn_collection_bg.jpg" alt=""> -->
+                </div>
             </div>
         </section>
         <section class="best_seller">
-            <div class="container">
-                best_seller
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <div class="divisore d-flex align-items-center justify-content-center">
+                        <div class="stick me-3 mb-4">
+                        </div>
+                        <strong class=" h6 d-flex flex-column align-items-center">
+                            <h1>Best Seller</h1>
+                            <h6>Must have products from our top sellers</h6>
+                        </strong>
+                        <div class="stick ms-3 mb-4">
+                        </div>
+                    </div>
+                    <div class="best d-flex ps-5 pt-4 justify-content-center pe-5">
+                        <div class="arrow d-flex justify-content-center align-items-center">
+                            <i class="fa-sharp fa-solid fa-arrow-left"></i>
+                        </div>
+                        <div class="item d-flex flex-column align-items-center">
+                            <div class="img">
+                                <img width="200" class="img-fluid pb-2" src="../assets/img/modern_black_leather_suit.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="item d-flex flex-column align-items-center">
+                            <div class="img">
+                                <img width="200" class="img-fluid pb-2" src="../assets/img/modern_black_leather_suit.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="item d-flex flex-column align-items-center">
+                            <div class="img">
+                                <img width="200" class="img-fluid pb-2" src="../assets/img/modern_black_leather_suit.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="item d-flex flex-column align-items-center">
+                            <div class="img">
+                                <img width="200" class="img-fluid pb-2" src="../assets/img/modern_black_leather_suit.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="item d-flex flex-column align-items-center">
+                            <div class="img">
+                                <img width="200" class="img-fluid pb-2" src="../assets/img/modern_black_leather_suit.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="arrow d-flex justify-content-center align-items-center">
+                            <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="on_sale">
@@ -88,14 +212,17 @@ export default {
     background-image: url(../assets/img/home1_slide_three_bg_2.jpg);
     background-position: center;
     background-size: cover;
-    h1{
+
+    h1 {
         color: white;
         font-size: 100px;
     }
-    h3{
+
+    h3 {
         color: white;
     }
-    button{
+
+    button {
         background-color: rgba(255, 255, 255, 0.136);
         border: white solid 0.1px;
         color: white;
@@ -109,31 +236,94 @@ export default {
 
 .xs_banner {
     height: 250px;
-   background-color:$bannersmall;
-   img{
-    max-width:100%;
-   }
-   h6{
-    color:$NevadaDarkMuted ;
-   }
+    background-color: $bannersmall;
+
+    img {
+        max-width: 100%;
+    }
+
+    h6 {
+        color: $NevadaDarkMuted ;
+    }
 }
 
 .featured {
     width: 100%;
-    height: 550px;
-    border: dashed;
+
+    .item {
+        height: 500px;
+        width: 300px;
+    }
+
+    .chose {
+        border: solid $grigiochiaro 0.1px;
+        width: 150px;
+        height: 50px;
+    }
+
+    .chose:hover {
+        background-color: $grigiochiaro;
+    }
+
+
+
+    .h6 {
+        h6 {
+            color: $NevadaDarkMuted;
+        }
+    }
+
+    .item {
+        span {
+            color: $HavelockBlue;
+            font-size: x-large;
+        }
+
+        .discount {
+            text-decoration: line-through;
+            font-size: small;
+            color: $HavelockBlue;
+        }
+    }
 }
 
 .collections {
     width: 100%;
-    height: 290px;
-    border: dashed;
+    height: auto;
 }
 
 .best_seller {
     width: 100%;
-    height: 320px;
-    border: dashed;
+    height: 520px;
+
+    .arrow {
+        position: relative;
+        width: 40px;
+        height: 80px;
+        border: solid 0.1px rgb(206, 205, 205);
+        bottom: -100px;
+        margin-left: -20px;
+        margin-right: -20px;
+        background-color: rgb(206, 205, 205);
+
+        i {
+            color: white;
+        }
+
+
+
+    }
+    .arrow:hover{
+        background-color: rgb(232, 229, 229);
+
+    }
+}
+
+.stick {
+    background-color: $grigiochiaro;
+    width: 30%;
+    height: 0.1px;
+
 }
 
 .on_sale {
@@ -158,5 +348,4 @@ export default {
     width: 100%;
     height: 300px;
     border: dashed;
-}
-</style>
+}</style>

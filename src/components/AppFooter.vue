@@ -90,26 +90,15 @@
                         <div class="col-3 d-flex flex-column gap-5">
                             <h6 class="text-uppercase">tags</h6>
                             <div class="container_tags d-flex flex-wrap gap-2">
-                                <span class="my_span">tag</span>
-                                <span class="my_span">tag</span>
-                                <span class="my_span">tag</span>
-                                <span class="my_span">tag</span>
-                                <span class="my_span">tag</span>
-                                <span class="my_span">tag</span>
-                                <span class="my_span">tag</span>
-                                <span class="my_span">tag</span>
-                                <span class="my_span">tag</span>
-                                <span class="my_span">tag</span>
-                                <span class="my_span">tag</span>
-                                <span class="my_span">tag</span>
-                                <span class="my_span">tag</span>
-                                <span class="my_span">tag</span>
-                                <span class="my_span">tag</span>
-                                <span class="my_span">tag</span>
-                                <span class="my_span">tag</span>
-                                <span class="my_span">tag</span>
-                                <span class="my_span">tag</span>
-                                <span class="my_span">tag</span>
+                                <span class="my_span rounded-1">tag</span>
+                                <span class="my_span rounded-1">tag</span>
+                                <span class="my_span rounded-1">tag</span>
+                                <span class="my_span rounded-1">tag</span>
+                                <span class="my_span rounded-1">tag</span>
+                                <span class="my_span rounded-1">tag</span>
+                                <span class="my_span rounded-1">tag</span>
+                                <span class="my_span rounded-1">tag</span>
+                                <span class="my_span rounded-1">tag</span>
                             </div>
                         </div>
 
