@@ -91,24 +91,24 @@
             <div class="container_large d-flex">
                 <div class="winter d-flex  flex-column justify-content-end">
                     <div class="text d-flex flex-column justify-content-center align-items-center mb-5">
-                                <h2 class="pb-3">Winter Collection</h2>
-                                <p class="text-uppercase">stylish and warm</p>
-                                <button class="p-2 pe-3 ps-3 rounded-5 text-uppercase">view more</button>
-                            </div>
+                        <h2 class="pb-3">Winter Collection</h2>
+                        <p class="text-uppercase">stylish and warm</p>
+                        <button class="p-2 pe-3 ps-3 rounded-5 text-uppercase">view more</button>
+                    </div>
                 </div>
                 <div class="spring d-flex  flex-column justify-content-end">
                     <div class="text d-flex flex-column justify-content-center align-items-center mb-5">
-                                <h2 class="pb-3"> Spring Collection</h2>
-                                <p class="text-uppercase">bright and colorful</p>
-                                <button class="p-2 pe-3 ps-3 rounded-5 text-uppercase">view more</button>
-                            </div>
+                        <h2 class="pb-3"> Spring Collection</h2>
+                        <p class="text-uppercase">bright and colorful</p>
+                        <button class="p-2 pe-3 ps-3 rounded-5 text-uppercase">view more</button>
+                    </div>
                 </div>
                 <div class="autumn d-flex  flex-column justify-content-end">
                     <div class="text d-flex flex-column justify-content-center align-items-center mb-5">
-                                <h2 class="pb-3">Autumn Collection</h2>
-                                <p class="text-uppercase">ruch and comfortable</p>
-                                <button class="p-2 pe-3 ps-3 rounded-5 text-uppercase">view more</button>
-                            </div>
+                        <h2 class="pb-3">Autumn Collection</h2>
+                        <p class="text-uppercase">ruch and comfortable</p>
+                        <button class="p-2 pe-3 ps-3 rounded-5 text-uppercase">view more</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -211,13 +211,190 @@
                             <div class="stick ms-3 mb-4">
                             </div>
                         </div>
+.col-6
+
                     </div>
                 </div>
             </div>
             <hr>
             <div class="container">
-                <div class="b_bottom">
-                    b_bottom
+                <div class="b_bottom d-flex">
+                    <div class="col-3 p-3">
+                        <h6 class="text-uppercase mb-3">FEATURED</h6>
+                        <div class="item d-flex justify-content-between pb-3 pt-3">
+                            <div class="text d-flex">
+                                <h6>Black Jacket</h6><span class="ps-1"><strong>125$</strong>
+                                </span>
+                            </div>
+                            <img width="50" class="img-fluid" src="../assets/img/black_leather_jacket.jpg" alt="">
+                        </div>
+                        <div class="item d-flex justify-content-between pb-3 pt-3">
+                            <div class="text d-flex flex-column">
+                                <h6>Black Leather Jacket</h6>
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price">
+                                    <span class="discount_black"><strong>235$</strong>
+                                    </span><span class="ms-1"><strong>200$</strong>
+                                    </span>
+                                </div>
+                            </div>
+                            <img width="50" class="img-fluid" src="../assets/img/black_elegant_leather_jacket.jpg" alt="">
+                        </div>
+                        <div class="item d-flex justify-content-between pb-3 pt-3">
+                            <div class="text d-flex">
+                                <h6>Hipster Black Top</h6><span class="ps-1"><strong>57$</strong>
+                                </span>
+                            </div>
+                            <img width="50" class="img-fluid" src="../assets/img/hipster_black_top.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-3 p-3">
+                        <h6 class="text-uppercase mb-3">ON SALE</h6>
+                        <div class="item d-flex justify-content-between pb-3 pt-3">
+                            <div class="text d-flex flex-column">
+                                <h6>Black Leather Jacket</h6>
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price">
+                                    <span class="discount_black"><strong>235$</strong>
+                                    </span><span class="ms-1"><strong>200$</strong>
+                                    </span>
+                                </div>
+                            </div>
+                            <img width="50" class="img-fluid" src="../assets/img/black_elegant_leather_jacket.jpg" alt="">
+                        </div>
+                        <div class="item d-flex justify-content-between pb-3 pt-3">
+                            <div class="text d-flex flex-column">
+                                <div class="item_name d-flex">
+                                    <h6>Blue Leather Jacket</h6><span class="ps-1 discount_black"><strong>80$</strong>
+                                    </span>
+                                </div>
+                                <span><strong>60$</strong></span>
+                            </div>
+                            <img width="50" class="img-fluid" src="../assets/img/blue_leather_jacket.jpg" alt="">
+                        </div>
+                        <div class="item d-flex justify-content-between pb-3 pt-3">
+                            <div class="text d-flex flex-column">
+                                <div class="item_name d-flex">
+                                    <h6>Modern Leather Boots</h6><span class="ps-1 discount_black"><strong>50$</strong>
+                                    </span>
+                                </div>
+                                <span><strong>30$</strong></span>
+                            </div>
+                            <img width="50" class="img-fluid" src="../assets/img/blue_leather_jacket.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-3 p-3">
+                        <h6 class="text-uppercase mb-3">TOP RATED</h6>
+                        <div class="item d-flex justify-content-between pb-3 pt-3">
+                            <div class="text d-flex flex-column">
+                                <h6>Leather Gloves</h6>
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price">
+                                    <span><strong>45$</strong>
+                                    </span>
+                                </div>
+                            </div>
+                            <img width="50" class="img-fluid" src="../assets/img/leather_gloves.jpg" alt="">
+                        </div>
+                        <div class="item d-flex justify-content-between pb-3 pt-3">
+                            <div class="text d-flex flex-column">
+                                <h6>Black Leather Jacket</h6>
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price">
+                                    <span class="discount_black"><strong>235$</strong>
+                                    </span><span class="ms-1"><strong>200$</strong>
+                                    </span>
+                                </div>
+                            </div>
+                            <img width="50" class="img-fluid" src="../assets/img/black_elegant_leather_jacket.jpg" alt="">
+                        </div>
+                        <div class="item d-flex justify-content-between pb-3 pt-3">
+                            <div class="text d-flex flex-column">
+                                <h6>Spring Printed Dress</h6>
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price">
+                                    <span><strong>47$</strong>
+                                    </span>
+                                </div>
+                            </div>
+                            <img width="50" class="img-fluid" src="../assets/img/spring_printed_dress.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-3 p-3">
+                        <h6 class="text-uppercase mb-3">LATEST REVIEWS</h6>
+                        <div class="item d-flex justify-content-between pb-3 pt-3">
+                            <div class="text d-flex flex-column">
+                                <h6>Black Leather Jacket</h6>
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <h6>by admin</h6>
+                            </div>
+                            <img width="50" class="img-fluid" src="../assets/img/black_elegant_leather_jacket.jpg" alt="">
+                        </div>
+                        <div class="item d-flex justify-content-between pb-2 pt-3">
+                            <div class="text d-flex flex-column">
+                                <h6>Leather Gloves</h6>
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <h6>by Beardman</h6>
+                            </div>
+                            <img width="50" class="img-fluid" src="../assets/img/leather_gloves.jpg" alt="">
+                        </div>
+                        <div class="item d-flex justify-content-between pb-3 pt-3">
+                            <div class="text d-flex flex-column">
+                                <h6>Spring Printed Dress</h6>
+                                <div class="rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <h6>by admin</h6>
+                            </div>
+                            <img width="50" class="img-fluid" src="../assets/img/spring_printed_dress.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -339,28 +516,33 @@ export default {
 }
 
 .collections {
-color: white;
+    color: white;
     width: 100%;
+
     .autumn,
     .spring,
-    .winter{
+    .winter {
         width: 100%;
         aspect-ratio: 1;
     }
-    .winter{
+
+    .winter {
         background-image: url(../assets/img/winter_collection_bg.jpg);
         background-size: cover;
 
     }
-    .spring{
+
+    .spring {
         background-image: url(../assets/img/spring_collection_bg.jpg);
         background-size: cover;
     }
-    .autumn{
+
+    .autumn {
         background-image: url(../assets/img/autumn_collection_bg.jpg);
         background-size: cover;
     }
-    button{
+
+    button {
         background-color: rgba(255, 255, 255, 0.136);
         border: white solid 0.1px;
         color: white;
@@ -425,8 +607,20 @@ color: white;
 
 .b_bottom {
     width: 100%;
-    height: 300px;
-    border: dashed;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    .item {
+        border-bottom: solid 0.1px $grigiochiaro;
+    }
+
+    .rate {
+        margin-top: -10px;
+    }
+
+    h6.text-uppercase {
+        letter-spacing: 0.2rem;
+    }
 
 }
 
@@ -456,4 +650,8 @@ color: white;
 h6 {
     color: $NevadaDarkMuted ;
 }
-</style>
+
+.discount_black {
+    text-decoration: line-through;
+
+}</style>

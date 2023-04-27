@@ -15,7 +15,7 @@
             </div>
             <div class="link align-items-center">
                 <div class="container align-items-center">
-                    <div class="row pt-4">
+                    <div class="row ">
                         <div class="col-3 d-flex flex-column justify-content-between gap-5">
                             <div class="logo text-start">
                                 <img width="200" class="img-fluid" src="../assets/img/classic_shop_logo_footer.png" alt="">
@@ -143,11 +143,16 @@ export default {
 @use '../assets/partials/variables' as*;
 
 .row {
-    height: 100%;
+padding-top: 3rem;
+padding-bottom: 3rem;
+line-height: 1.2;
+li{
+    line-height: 0.9;
+}
 }
 
 .subscribe {
-    height: 150px;
+    height: 140px;
     background-color: $Shark2;
     button{
         border: none;
@@ -160,7 +165,7 @@ export default {
 }
 
 .link {
-    height: 490px;
+
     background-color: $Shark1;
 
     .my_span {
