@@ -26,6 +26,7 @@
                     <img src="../assets/img/classic_shop_logo1x.png" alt="">
                 </div>
                 <nav class="navbar">
+                    <MenuHeader Home="ciao"></MenuHeader>
                     <ul class=" d-flex gap-5 align-items-center">
                         <li>Home <span class="arrow">&#8744</span></li>
                         <li>Shop <span class="arrow">&#8744</span></li>
@@ -43,7 +44,9 @@
 </template>
 
 <script>
+import MenuHeader from './MenuHeader.vue';
 export default {
+    components:{MenuHeader},
     name: "AppHeader",
     setup() {
 
