@@ -187,21 +187,74 @@
                 </div>
             </div>
         </section>
-        <section class="new_arrivals">
-            <div class="container_large pt-5 pb-5">
-                new_arrivals
+        <section class="new_arrivals pt-5 pb-5">
+            <div class="container_large d-flex flex-column justify-content-center align-items-center">
+                <div class="container">
+                    <div class="divisore d-flex align-items-center justify-content-center">
+                        <div class="stick me-3 mb-4">
+                        </div>
+                        <strong class=" h6 d-flex flex-column align-items-center">
+                            <h1>New Arrivals</h1>
+                            <h6>Must have products from our top designer</h6>
+                        </strong>
+                        <div class="stick ms-3 mb-4">
+                        </div>
+                    </div>
+                </div>
+                <div class="new_arrivals d-flex pt-4 justify-content-center">
+                    <div class="arrow d-flex justify-content-center align-items-center">
+                        <i class="fa-sharp fa-solid fa-arrow-left"></i>
+                    </div>
+                    <div class="item d-flex flex-column align-items-center">
+                        <div class="img">
+                            <img width="290" class="img-fluid pb-2" src="../assets/img/spring_printed_dress.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item d-flex flex-column align-items-center">
+                        <div class="img">
+                            <img width="290" class="img-fluid pb-2" src="../assets/img/modern_black_leather_suit.jpg"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="item d-flex flex-column align-items-center">
+                        <div class="img">
+                            <img width="290" class="img-fluid pb-2" src="../assets/img/black_leather_jacket.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="item d-flex flex-column align-items-center">
+                        <div class="img">
+                            <img width="290" class="img-fluid pb-2" src="../assets/img/black_elegant_leather_jacket.jpg"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="item d-flex flex-column align-items-center">
+                        <div class="img">
+                            <img width="290" class="img-fluid pb-2" src="../assets/img/hipster_black_top.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="arrow d-flex justify-content-center align-items-center">
+                        <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="small_jumbutron">
-            <div class="container">
+        <section class="testimonials">
+            <div class="container d-flex justify-content-center align-items-center">
+                <div class="testimonial d-flex justify-content-center align-items-center flex-column text-center">
+                    <img class="mb-3" src="../assets/img/man_testimonial.png" alt="man tesimonial">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae ea vel, sed quibusdam,
+                        necessitatibus quo labore modi deleniti accusamus maiores, ut recusandae iure assumenda saepe
+                        exercitationem atque tempore similique accusantium.</p>
+                    <p><strong>Dario Pineda</strong>, Theme Fusion</p>
+                </div>
 
             </div>
         </section>
         <section class="blog p-5 pb-5">
             <div class="container">
-                <div class="b_top">
-                    <div class="row">
-                        <div class="divisore d-flex align-items-center justify-content-center">
+                <div class="b_top pt-5 pb-5">
+                    <div class="row ">
+                        <div class="divisore d-flex align-items-center justify-content-center mb-5">
                             <div class="stick me-3 mb-4">
                             </div>
                             <strong class=" h6 d-flex flex-column align-items-center">
@@ -211,14 +264,43 @@
                             <div class="stick ms-3 mb-4">
                             </div>
                         </div>
-.col-6
+                        <div class="col 4">
+                            <div class="post d-flex flex-column align-items-center">
+                                    <img src="../assets/img/post_img_12-700x441.jpg" alt="">
+                            </div>
+                            <div class="post_text mt-3">
+                                <h5>Lorem ipsum dolor sit.</h5>
+                                <p class="smaller">September 9th 2020 | 0 comments</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dignissimos in animi facere minima laboriosam accusamus magni itaque .</p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="post d-flex flex-column align-items-center">
+                                    <img src="../assets/img/post_img_11-700x441.jpg" alt="">
+                            </div>
+                            <div class="post_text mt-3">
+                                <h5>Lorem ipsum dolor sit.</h5>
+                                <p class="smaller">September 9th 2020 | 0 comments</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dignissimos in animi facere minima laboriosam accusamus magni itaque .</p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="post d-flex flex-column align-items-center">
+                                    <img src="../assets/img/post_img_10-700x441.jpg" alt="">
+                            </div>
+                            <div class="post_text mt-3">
+                                <h5>Lorem ipsum dolor sit.</h5>
+                                <p class="smaller">September 9th 2020 | 0 comments</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dignissimos in animi facere minima laboriosam accusamus magni itaque .</p>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
             </div>
             <hr>
             <div class="container">
-                <div class="b_bottom d-flex">
+                <div class="b_bottom pt-5 pb-5 d-flex">
                     <div class="col-3 p-3">
                         <h6 class="text-uppercase mb-3">FEATURED</h6>
                         <div class="item d-flex justify-content-between pb-3 pt-3">
@@ -448,20 +530,26 @@ export default {
     }
 }
 
-.small_jumbutron {
+.testimonials {
     height: 450px;
     color: white;
-    background-image: url(../assets/img/testimonials_home_1_bg.jpg);
-    background-size: 100%;
-    background-position-x: center;
-    background-position-y: -180px;
+    background: url(../assets/img/testimonials_home_1_bg.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
+
 
     .testimonial {
         width: 100%;
-        border: dashed;
+
+        height: 450px;
     }
 
+}
+
+.post_text {
+    p.smaller {
+        font-size: xx-small;
+    }
 }
 
 .xs_banner {
@@ -601,8 +689,7 @@ export default {
 
 .b_top {
     width: 100%;
-    height: 440px;
-
+    
 }
 
 .b_bottom {
@@ -654,4 +741,5 @@ h6 {
 .discount_black {
     text-decoration: line-through;
 
-}</style>
+}
+</style>
