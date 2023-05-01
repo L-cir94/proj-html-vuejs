@@ -26,15 +26,29 @@
                                     dolor iure hic eligendi enim minima possimus!</p>
                             </div>
                             <div class="icons d-flex gap-3">
-                                <i class="fa-brands fa-facebook-f"></i>
+                                <i v-for="app in store.apps" :class="app.social"></i>
+<!--                                 <i class="fa-brands fa-facebook-f"></i>
                                 <i class="fa-brands fa-twitter"></i>
                                 <i class="fa-brands fa-instagram"></i>
-                                <i class="fa-brands fa-youtube"></i>
+                                <i class="fa-brands fa-youtube"></i> -->
                             </div>
                         </div>
                         <div class="col-3 d-flex flex-column gap-5">
                             <h6 class="text-uppercase">top rated product</h6>
-                            <div class="item d-flex justify-content-between pb-2">
+                            <div class="item d-flex justify-content-between pb-2" v-for="item in store.topRelatedProducts">
+                                <div class="text">
+                                    <h6>{{ item.name }}</h6>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i><br>
+                                    <span :class="item.class">{{ item.noDiscount }}</span><span class="ms-1">{{item.discountedPrice}}</span>
+                                </div>
+                                <img width="50" class="img-fluid" :src="item.imgPath"
+                                    alt="">
+                            </div>
+                            <!-- <div class="item d-flex justify-content-between pb-2">
                                 <div class="text">
                                     <h6>Leather Gloves</h6>
                                     <i class="fa-solid fa-star"></i>
@@ -59,46 +73,33 @@
                                 </div>
                                 <img width="50" class="img-fluid" src="../assets/img/modern_black_leather_suit-400x520.jpg"
                                     alt="">
-                            </div>
-                            <div class="item d-flex justify-content-between pb-2">
-                                <div class="text">
-                                    <h6>Leather Gloves</h6>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <h6>$45</h6>
-                                </div>
-                                <img width="50" class="img-fluid" src="../assets/img/modern_black_leather_suit-400x520.jpg"
-                                    alt="">
-                            </div>
+                            </div> -->
                         </div>
                         <div class="col-3 d-flex flex-column align-items-center ">
                             <h6 class="text-uppercase">recent posts</h6>
                             <div class="post d-flex justify-content-between gap-4">
                                 <ul class="d-flex flex-column gap-5">
+                                    <li v-for="post in store.recentPost">{{post.content}}</li>
+<!--                                     <li>Lorem ipsum dolor sit amet.</li>
                                     <li>Lorem ipsum dolor sit amet.</li>
                                     <li>Lorem ipsum dolor sit amet.</li>
                                     <li>Lorem ipsum dolor sit amet.</li>
-                                    <li>Lorem ipsum dolor sit amet.</li>
-                                    <li>Lorem ipsum dolor sit amet.</li>
-                                    <li>Lorem ipsum dolor sit amet.</li>
+                                    <li>Lorem ipsum dolor sit amet.</li> -->
                                 </ul>
                             </div>
                         </div>
                         <div class="col-3 d-flex flex-column gap-5">
                             <h6 class="text-uppercase">tags</h6>
                             <div class="container_tags d-flex flex-wrap gap-2">
+                                <span class="my_span rounded-1" v-for="tag in store.tags">{{ tag.name }}</span>
+<!--                            <span class="my_span rounded-1">tag</span>
                                 <span class="my_span rounded-1">tag</span>
                                 <span class="my_span rounded-1">tag</span>
                                 <span class="my_span rounded-1">tag</span>
                                 <span class="my_span rounded-1">tag</span>
                                 <span class="my_span rounded-1">tag</span>
                                 <span class="my_span rounded-1">tag</span>
-                                <span class="my_span rounded-1">tag</span>
-                                <span class="my_span rounded-1">tag</span>
-                                <span class="my_span rounded-1">tag</span>
+                                <span class="my_span rounded-1">tag</span> -->
                             </div>
                         </div>
 
@@ -130,11 +131,12 @@
 </template>
 
 <script>
+import{store} from '../store'
 export default {
     name: "AppFooter",
     setup() {
 
-        return {}
+        return {store}
     }
 }
 </script>

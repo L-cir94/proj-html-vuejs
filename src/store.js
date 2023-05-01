@@ -1,6 +1,6 @@
-import { reactive } from "vue"; 
+import { reactive } from "vue";
 export const store = reactive({
-    menuheader: [
+    menuHeader: [
         {
             name: 'Home',
         },
@@ -19,20 +19,20 @@ export const store = reactive({
         {
             name: 'Elements',
         },
-    ], 
+    ],
     apps: [
-      {
-        social: 'fa-brands fa-facebook',
-      }, 
-      {
-        social: 'fa-brands fa-twitter',
-      }, 
-      {
-        social: 'fa-brands fa-instagram',
-      }, 
-      {
-        social: 'fa-brands fa-youtube',
-      },
+        {
+            social: 'fa-brands fa-facebook',
+        },
+        {
+            social: 'fa-brands fa-twitter',
+        },
+        {
+            social: 'fa-brands fa-instagram',
+        },
+        {
+            social: 'fa-brands fa-youtube',
+        },
     ],
     navbar: [
         {
@@ -44,61 +44,100 @@ export const store = reactive({
         {
             name: 'Cart',
         },
-    ], 
-    tags:[
+    ],
+    tags: [
         {
-            name:'black',
+            name: 'black',
         },
         {
-            name:'boots',
+            name: 'boots',
         },
         {
-            name:'brown',
+            name: 'brown',
         },
         {
-            name:'casual',
+            name: 'casual',
         },
         {
-            name:'D&G',
+            name: 'D&G',
         },
         {
-            name:'Fabric',
+            name: 'Fabric',
         },
         {
-            name:'hipster',
+            name: 'hipster',
         },
         {
-            name:'New York',
+            name: 'New York',
         },
         {
-            name:'flowers',
-        },
-            {
-            name:'multi-purpose',
+            name: 'flowers',
         },
         {
-            name:'red',
+            name: 'multi-purpose',
         },
         {
-            name:'skinny',
+            name: 'red',
         },
         {
-            name:'responsive',
+            name: 'skinny',
         },
         {
-            name:'white',
+            name: 'responsive',
         },
         {
-            name:'winter',
+            name: 'white',
         },
         {
-            name:'swear',
+            name: 'winter',
         },
         {
-            name:'lines',
+            name: 'swear',
         },
         {
-            name:'outdoors',
+            name: 'lines',
+        },
+        {
+            name: 'outdoors',
+        },
+    ],
+    recentPost: [
+        {
+            content: 'rfjpifoir erpofjjrfjroi dfj'
+        },
+        {
+            content: 'lorem ipsunn  dejuh'
+        },
+        {
+            content: 'dolejioergioper dfpop'
+        },
+        {
+            content: 'SDIOOIW FLJISDFO FJ'
+        },
+        {
+            content: 'lorem dolor sin amet djjs f'
+        },
+        {
+            content: 'oihisdnjwfn vnhkbhfh'
+        },
+    ],
+    topRelatedProducts:[
+        {
+            name:'Leather Gloves ',
+            discountedPrice:'$45',
+            imgPath:'src/assets/img/modern_black_leather_suit-400x520.jpg'
+        },
+        {
+            name:'Black Leather Jacket',
+            noDiscount:'$235',
+            class:'discount_black',
+            discountedPrice:'$200',
+            imgPath:'src/assets/img/modern_black_leather_suit-400x520.jpg'
+        },
+        {
+            name:'Spring Painted Dress',
+            discountedPrice:'$47',
+            imgPath:'src/assets/img/modern_black_leather_suit-400x520.jpg'
         },
     ]
 })

@@ -25,7 +25,7 @@
                 <nav class="navbar">
 <!--                     <MenuHeader Home="ciao"></MenuHeader> -->
                     <ul class=" d-flex gap-5 align-items-center">
-                        <li v-for="menu in store.menuheader">{{menu.name}}</li>
+                        <li v-for="menu in store.menuHeader">{{menu.name}}</li>
                        <!--  <li>Home <span class="arrow">&#8744</span></li>
                         <li>Shop <span class="arrow">&#8744</span></li>
                         <li>Products <span class="arrow">&#8744</span></li>

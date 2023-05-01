@@ -738,8 +738,5 @@ h6 {
     color: $NevadaDarkMuted ;
 }
 
-.discount_black {
-    text-decoration: line-through;
 
-}
 </style>
