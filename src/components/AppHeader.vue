@@ -4,10 +4,7 @@
             <div class="h_top d-flex align-items-start justify-content-between">
                 <nav class="navbar sx">
                     <ul class="d-flex">
-                        <li><i class="fa-brands fa-facebook-f p-3"></i></li>
-                        <li><i class="fa-brands fa-twitter p-3"></i></li>
-                        <li><i class="fa-brands fa-instagram p-3"></i></li>
-                        <li><i class="fa-brands fa-youtube p-3"></i></li>
+                        <li v-for="app in store.apps"><i class="p-3" :class="app.social"></i></li>
                     </ul>
                 </nav>
                 <nav class="navbar dx">
@@ -26,14 +23,15 @@
                     <img src="../assets/img/classic_shop_logo1x.png" alt="">
                 </div>
                 <nav class="navbar">
-                    <MenuHeader Home="ciao"></MenuHeader>
+<!--                     <MenuHeader Home="ciao"></MenuHeader> -->
                     <ul class=" d-flex gap-5 align-items-center">
-                        <li>Home <span class="arrow">&#8744</span></li>
+                        <li v-for="menu in store.menuheader">{{menu.name}}</li>
+                       <!--  <li>Home <span class="arrow">&#8744</span></li>
                         <li>Shop <span class="arrow">&#8744</span></li>
                         <li>Products <span class="arrow">&#8744</span></li>
                         <li>Categories <span class="arrow">&#8744</span></li>
                         <li>News</li>
-                        <li>Elements <span class="arrow">&#8744</span></li>
+                        <li>Elements <span class="arrow">&#8744</span></li> -->
                         <button class="rounded-5 p-2 pe-4 ps-4">SHOP NOW!</button>
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </ul>
@@ -44,13 +42,13 @@
 </template>
 
 <script>
-import MenuHeader from './MenuHeader.vue';
+import{store} from '../store'
 export default {
-    components:{MenuHeader},
+    components:{},
     name: "AppHeader",
     setup() {
 
-        return {}
+        return {store}
     }
 }
 </script>
