@@ -3,21 +3,27 @@ export const store = reactive({
     menuHeader: [
         {
             name: 'Home',
+            arrow:'arrow down ms-1 mb-1',
         },
         {
             name: 'Shop',
+            arrow:'arrow down ms-1 mb-1',
         },
         {
             name: 'Products',
+            arrow:'arrow down ms-1 mb-1',
         },
         {
             name: 'Categories',
+            arrow:'arrow down ms-1 mb-1',
         },
         {
             name: 'News',
+            arrow:'',
         },
         {
             name: 'Elements',
+            arrow:'arrow down ms-1 mb-1',
         },
     ],
     apps: [

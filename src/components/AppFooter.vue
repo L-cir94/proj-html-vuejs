@@ -4,7 +4,7 @@
             <div class="subscribe d-flex align-items-center">
                 <div class="container d-flex align-items-center">
                     <div class="text text-center d-flex justify-content-center align-items-center">
-                        <i class="fa-regular fa-envelope p-3 me-4 bg-black rounded-5"></i>
+                        <i class="fa-regular fa-envelope fa-l p-3 me-4 bg-opacity-50 bg-black rounded-circle"></i>
                         <h3>Subscribe now and get special offers</h3>
                     </div>
                     <div class="call_to_action d-flex justify-content-center align-items-center">
@@ -46,7 +46,7 @@
                                     <span :class="item.class">{{ item.noDiscount }}</span><span class="ms-1">{{item.discountedPrice}}</span>
                           
                                 </div>
-                                <img width="50" class="img-fluid" :src="item.imgPath"
+                                <img width="60" class="img-fluid" :src="item.imgPath"
                                     alt="">
                             </div>
                             <!-- <div class="item d-flex justify-content-between pb-2">
@@ -147,8 +147,8 @@ export default {
 @use '../assets/partials/variables' as*;
 
 .row {
-padding-top: 3rem;
-padding-bottom: 3rem;
+padding-top: 1.9rem;
+padding-bottom: 1.9rem;
 line-height: 1.2;
 li{
     line-height: 0.9;

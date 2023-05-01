@@ -10,8 +10,8 @@
                 <nav class="navbar dx">
                     <ul class="d-flex gap-1">
                         <li class="p-3 my ">Shopping Cart</li>
-                        <li class=" p-3 my_border">MyAccount <span class="arrow">&#8744</span></li>
-                        <li class=" p-3 my_border pe-5"><i class="fa-solid fa-cart-shopping"></i> Cart <span class="arrow">&#8744</span></li>
+                        <li class=" p-3 my_border">MyAccount <!-- <span class="arrow">&#8744</span> --> <i class=" ms-1 mb-1 arrow down"></i></li>
+                        <li class=" p-3 my_border pe-5"><i class="fa-solid fa-cart-shopping"></i> Cart <!-- <span class="arrow">&#8744</span> --> <i class=" ms-1 mb-1 arrow down"></i></li>
                     </ul>
                 </nav>
             </div>
@@ -25,7 +25,7 @@
                 <nav class="navbar">
 <!--                     <MenuHeader Home="ciao"></MenuHeader> -->
                     <ul class=" d-flex gap-5 align-items-center">
-                        <li v-for="menu in store.menuHeader">{{menu.name}}</li>
+                        <li v-for="menu in store.menuHeader">{{menu.name}} <i :class="menu.arrow"></i></li>
                        <!--  <li>Home <span class="arrow">&#8744</span></li>
                         <li>Shop <span class="arrow">&#8744</span></li>
                         <li>Products <span class="arrow">&#8744</span></li>
