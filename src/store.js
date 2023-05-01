@@ -125,19 +125,19 @@ export const store = reactive({
         {
             name:'Leather Gloves ',
             discountedPrice:'$45',
-            imgPath:'src/assets/img/modern_black_leather_suit-400x520.jpg'
+            imgPath:'/src/assets/img/leather_gloves.jpg'
         },
         {
             name:'Black Leather Jacket',
             noDiscount:'$235',
             class:'discount_black',
             discountedPrice:'$200',
-            imgPath:'src/assets/img/modern_black_leather_suit-400x520.jpg'
+            imgPath:'/src/assets/img/black_elegant_leather_jacket.jpg'
         },
         {
             name:'Spring Painted Dress',
             discountedPrice:'$47',
-            imgPath:'src/assets/img/modern_black_leather_suit-400x520.jpg'
+            imgPath:'/src/assets/img/spring_printed_dress.jpg'
         },
     ]
 })
