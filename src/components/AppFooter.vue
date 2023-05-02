@@ -27,7 +27,7 @@
                             </div>
                             <div class="icons d-flex gap-3">
                                 <i v-for="app in store.apps" :class="app.social"></i>
-<!--                                 <i class="fa-brands fa-facebook-f"></i>
+                                <!--                                 <i class="fa-brands fa-facebook-f"></i>
                                 <i class="fa-brands fa-twitter"></i>
                                 <i class="fa-brands fa-instagram"></i>
                                 <i class="fa-brands fa-youtube"></i> -->
@@ -43,11 +43,11 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i><br>
-                                    <span :class="item.class">{{ item.noDiscount }}</span><span class="ms-1">{{item.discountedPrice}}</span>
-                          
+                                    <span :class="item.class">{{ item.noDiscount }}</span><span
+                                        class="ms-1">{{ item.discountedPrice }}</span>
+
                                 </div>
-                                <img width="60" class="img-fluid" :src="item.imgPath"
-                                    alt="">
+                                <img width="60" class="img-fluid" :src="item.imgPath" alt="">
                             </div>
                             <!-- <div class="item d-flex justify-content-between pb-2">
                                 <div class="text">
@@ -80,9 +80,12 @@
                             <h6 class="text-uppercase">recent posts</h6>
                             <div class="post d-flex justify-content-between gap-4">
                                 <ul class="d-flex flex-column gap-1 mt-5">
-                                    
-                                    <li  class="m" v-for="post in store.recentPost">{{post.content}} <hr></li>
-<!--                                     <li>Lorem ipsum dolor sit amet.</li>
+
+                                    <li class="m" v-for="post in store.recentPost"><i
+                                            class=" me-3 mb-1 arrow right"></i>{{ post.content }}
+                                        <hr>
+                                    </li>
+                                    <!--                                     <li>Lorem ipsum dolor sit amet.</li>
                                     <li>Lorem ipsum dolor sit amet.</li>
                                     <li>Lorem ipsum dolor sit amet.</li>
                                     <li>Lorem ipsum dolor sit amet.</li>
@@ -93,8 +96,8 @@
                         <div class="col-3 d-flex flex-column gap-5">
                             <h6 class="text-uppercase">tags</h6>
                             <div class="container_tags d-flex flex-wrap gap-2">
-                                <span class="my_span rounded-1 p-2" v-for="tag in store.tags">{{ tag.name }}</span>
-<!--                            <span class="my_span rounded-1">tag</span>
+                                <span class="my_span rounded-1 p-2" v-for="tag in store.tags">{{ tag.name }} </span>
+                                <!--                            <span class="my_span rounded-1">tag</span>
                                 <span class="my_span rounded-1">tag</span>
                                 <span class="my_span rounded-1">tag</span>
                                 <span class="my_span rounded-1">tag</span>
@@ -133,12 +136,12 @@
 </template>
 
 <script>
-import{store} from '../store'
+import { store } from '../store'
 export default {
     name: "AppFooter",
     setup() {
 
-        return {store}
+        return { store }
     }
 }
 </script>
@@ -147,22 +150,26 @@ export default {
 @use '../assets/partials/variables' as*;
 
 .row {
-padding-top: 1.9rem;
-padding-bottom: 1.9rem;
-line-height: 1.2;
-li{
-    line-height: 0.9;
-}
+    padding-top: 1.9rem;
+    padding-bottom: 1.9rem;
+    line-height: 1.2;
+
+    li {
+        line-height: 0.9;
+    }
 }
 
 .subscribe {
     height: 140px;
     background-color: $Shark2;
-    button{
+
+    button {
         border: none;
+        background-color: $Melanie;
 
     }
-    button:hover{
+
+    button:hover {
         background-color: $HavelockBlue;
         color: white;
     }
@@ -177,10 +184,23 @@ li{
         border: solid 0.1px rgb(87, 87, 87);
     }
 
+    .my_span:hover {
+        background-color: $Melanie;
+    }
+
     .post li {
         list-style: none;
-      /*   border-bottom: solid 0.1px rgb(87, 87, 87); */
+
+        /*   border-bottom: solid 0.1px rgb(87, 87, 87); */
+        .right {
+            border: solid white;
+            border-width: 0 0.1px 0.1px 0;
+            display: inline-block;
+            padding: 3px;
+        }
     }
+
+
 
     .item {
         border-bottom: solid 0.1px rgb(87, 87, 87);
@@ -200,5 +220,4 @@ li{
 
 .call_to_action {
     width: 40%;
-}
-</style>
+}</style>

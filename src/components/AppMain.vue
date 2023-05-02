@@ -604,6 +604,7 @@ export default {
 }
 
 .collections {
+    
     color: white;
     width: 100%;
 
@@ -612,12 +613,8 @@ export default {
     .winter {
         width: 100%;
         aspect-ratio: 1;
-    }
-
-    .winter {
         background-image: url(../assets/img/winter_collection_bg.jpg);
         background-size: cover;
-
     }
 
     .spring {
